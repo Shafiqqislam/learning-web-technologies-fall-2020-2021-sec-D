@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>table</title>
+    <link rel="icon" href="images/unnamed.png">
+</head>
+<body>
+    <table border="2" width=50% cellspacing="0" >
+        <caption>This is a simple table</caption>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>ADDRESS</th>
+            <th>DEPARTMENT</th>
+            <th>SALARY</th>
+
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>H#38,R#3,Banani,Dhaka</td>
+            <th>Sales</th>
+            <th>$20000</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mark Zuckerberg</td>
+            <td>Flat#A/1,H#20,R#18,Mirpur,Dhaka</td>
+            <th>Accounts</th>
+            <th>$12000</th>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ala Voski</td>
+            <td>H#38,R#3,Motijheel</td>
+            <th>Human Resource</th>
+            <th>$30000</th>
+        </tr>
+       
+        
+    </table>
+</body>
+</html>

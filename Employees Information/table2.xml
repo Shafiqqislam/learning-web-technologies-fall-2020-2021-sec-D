@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>table</title>
+    <link rel="icon" href="images/unnamed.png">
+</head>
+<body>
+    <table border="2" width=50% cellspacing="0" >
+        <caption>This is a simple table</caption>
+        <tr>
+            <th>SL. NO.</th>
+            <th>NAME</th>
+            <th>ADMISSION DATE</th>
+            
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>John Carter</td>
+            <td>25/12/2015</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>Bob Marshal</td>
+            <td>13/01/1999</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>Clark Kent</td>
+            <td>17/06/2005</td>
+        </tr>
+       
+        
+    </table>
+</body>
+</html>
