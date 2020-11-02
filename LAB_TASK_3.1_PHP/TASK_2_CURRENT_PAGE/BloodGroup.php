@@ -23,10 +23,10 @@ if(isset($_REQUEST['submit'])){
 <form style="width:300px;" method="POST" action="#">
         <fieldset>
             <legend>BLOOD GROUP</legend>
-                <input type="checkbox" name="dept">SSC
-			    <input type="checkbox" name="dept">HSC
-                <input type="checkbox" name="dept">BSC
-                <input type="checkbox" name="dept">MSc
+            
+            <option value=""selected >A+</option>
+            <option value="">AB+</option>
+            <option value="">O+</option><br>
             <hr style="width:300px;" align="left";>
             <input type="submit" name="submit" value="submit">
            
