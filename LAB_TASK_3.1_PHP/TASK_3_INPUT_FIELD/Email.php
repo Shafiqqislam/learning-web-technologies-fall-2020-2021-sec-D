@@ -25,7 +25,7 @@ if(isset($_REQUEST['submit'])){
     <form style="width:300px;" method="POST" action="Email.php">
                 <fieldset>
             <legend>Email</legend>
-            <input type="text" name="name" value="<?php echo $data ?>">
+            <input type="email" name="email" value="<?php echo $data ?>">
             <hr style="width:300px;" align="left";>
             <input type="submit" name="submit" value="submit">
            
