@@ -1,3 +1,16 @@
+<?php
+
+if(isset($_REQUEST['submit'])){
+    $name =$_REQUEST['name'];
+    if($name==""){
+        echo "field required...";
+    }else{
+            echo=$name;
+        
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,12 +19,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form style="width:300px;" method="POST" action="GenderCheck.php">
+    <form style="width:300px;" method="POST" action="NameCheck.php">
                 <fieldset>
-            <legend>GENDER</legend>
-                <input type="radio" name="gender" value="" > Male 
-                <input type="radio" name="gender" value="" > Female
-                <input type="radio" name="gender"  value=""> other
+            <legend>Name</legend>
+            <input type="text" name="name" value="">
             <hr style="width:300px;" align="left";>
             <input type="submit" name="submit" value="submit">
            
