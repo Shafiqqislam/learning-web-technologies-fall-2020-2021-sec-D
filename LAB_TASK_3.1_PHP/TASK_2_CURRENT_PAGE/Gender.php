@@ -23,7 +23,10 @@ if(isset($_REQUEST['submit'])){
 <form style="width:300px;" method="POST" action="#">
                 <fieldset>
             <legend>GENDER</legend>
-            <input type="date" name="dob" value="">
+
+            <input type="radio" name="gender" value="">Male
+            <input type="radio" name="gender" value="">Female
+            <input type="radio" name="gender" value="">Others
             <hr style="width:300px;" align="left";>
             <input type="submit" name="submit" value="submit">
            
