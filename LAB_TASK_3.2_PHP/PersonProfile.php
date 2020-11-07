@@ -8,8 +8,7 @@ if(isset($_REQUEST['submit'])){
         
         if($name[0]==" "){
             
-            header('location: PersonProfile.html?msg=invalid_name');
-            
+            header('location: PersonProfile.html?msg=invalid_name'); 
         }
         
         else{
@@ -26,24 +25,14 @@ if(isset($_REQUEST['submit'])){
                 if(strpos($name, $pattern[$i])==true){
                     header('location: PersonProfile.html?msg=invalid_name');
                     break;
-                }
-                
+                } 
             }
-            
             echo "Welcome, ".$name."<br>";
-            
         }
-            
             else{
-                
-                header('location: PersonProfile.html?msg=invalid_name');
-                
+                header('location: PersonProfile.html?msg=invalid_name'); 
             }
-            
         }
-        
-        
-        
     }
     
     else{
@@ -97,9 +86,7 @@ if(isset($_REQUEST['submit'])){
         }
         
         else{
-            
             header('location: PersonProfile.html?msg=invalid_date');
-            
         }
         
     }
@@ -122,16 +109,18 @@ if(isset($_REQUEST['submit'])){
         
     }
     
+
+
+
+
     if(isset($_REQUEST['degree'])){
         
         $degree = $_REQUEST['degree'];
         
         for($i = 0; $i < count($degree); $i++){
             
-            echo "Degree: ".$degree[$i]."<br>";
-            
-        }
-        
+            echo "Degree: ".$degree[$i]."<br>";  
+        }  
     }
     
     else{
@@ -140,6 +129,9 @@ if(isset($_REQUEST['submit'])){
         
     }
     
+
+
+
     if(isset($_REQUEST['img'])){
         
         echo "Picture Uploaded!";
@@ -147,17 +139,9 @@ if(isset($_REQUEST['submit'])){
     
 }
 
- 
-
-
-
-
 else{
     
     header('location: PersonProfile.html?msg=error');
     
 }
-
-
-
 ?>
