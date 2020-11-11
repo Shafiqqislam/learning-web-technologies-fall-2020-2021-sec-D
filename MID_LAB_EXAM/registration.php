@@ -16,7 +16,7 @@ if(isset($_REQUEST['submit'])){
         echo "Error";    
         } 
     }
-    else{echo "Please fill up all information.";}
+    else{echo "fill up all information.";}
 }
 
 ?>
