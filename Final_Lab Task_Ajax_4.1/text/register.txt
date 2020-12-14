@@ -1,0 +1,2 @@
+user|123|123|shafik
+admin|1234|1234|shafik
